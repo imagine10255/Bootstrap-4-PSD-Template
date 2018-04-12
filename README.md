@@ -16,7 +16,7 @@ Bootstrap 4 PSD Template
 
 ## Comarison 開發時注意
 ```javascript
-# BS4 map BS3
+// BS4 map BS3
 $grid-breakpoints: (
   xs: 0,     // (0~575)    map bs3 size: 320,480
   sm: 576px, // (576~767)  map bs3 size: (如果想要補上576~767的細節作為480的替代，
