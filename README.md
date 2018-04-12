@@ -1,13 +1,12 @@
 # Bootstrap-4-PSD-Template
 Bootstrap 4 PSD Template
 
-- Psd Sample
-  - bootstrap-v4-grid-artboards
-  - bootstrap-v4-grid-xl-compatible
-- Comparison Chart
-  - bs4-vs-bs3
+## Psd Sample
+- bootstrap-v4-grid-artboards
+- bootstrap-v4-grid-xl-compatible
 
-- BS4 vs BS3 差異 (差異表請見 bs4-vs-bs3.xlsx)
+## Comparison Chart
+- bs4-vs-bs3.xlsx (差異表)
   * BS4 取消內建 非常難用的Glyphicons ICON Font
   * BS4 的 col-12, col-sm-12 等於 BS3 的 col-xs-12
   * BS4 在 <768 的尺寸，多設定了一個尺寸區間 (576px ~ 767px), 所以BS4針對 IPHONE5處理時，是含蓋到 575px 多了細節的空間, 而BS3是只含蓋到767px
@@ -15,8 +14,9 @@ Bootstrap 4 PSD Template
   * BS4 全面使用 rem 作為 尺寸計算單位, Root Size(Html FontSize) 為16px, 需注意Chrome最小FontSize為12px, 若將Root Size改為10px, 在除了FontSize 的 1rem 會以12px 為 Root
 
 
-```bash
-# BS4
+## Comarison 開發時注意
+```javascript
+# BS4 map BS3
 $grid-breakpoints: (
   xs: 0,     // (0~575)    map bs3 size: 320,480
   sm: 576px, // (576~767)  map bs3 size: (如果想要補上576~767的細節作為480的替代，
