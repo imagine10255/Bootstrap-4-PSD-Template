@@ -2,11 +2,11 @@
 Bootstrap 4 PSD Template
 
 ## Psd Sample
-- [bootstrap-v4-grid-artboards.psd](./raw/master/bootstrap-v4-grid-artboards.psd)
-- [bootstrap-v4-grid-xl-compatible](./raw/master/bootstrap-v4-grid-xl-compatible.psd)
+- [bootstrap-v4-grid-artboards.psd](https://github.com/imagine10255/Bootstrap-4-PSD-Template/raw/master/bootstrap-v4-grid-artboards.psd)
+- [bootstrap-v4-grid-xl-compatible](https://github.com/imagine10255/Bootstrap-4-PSD-Template/raw/master/bootstrap-v4-grid-xl-compatible.psd)
 
 ## Comparison Chart
-- [bs4-vs-bs3.xlsx](./raw/master/bs4-vs-bs3.xlsx) (差異表)
+- [bs4-vs-bs3.xlsx](https://github.com/imagine10255/Bootstrap-4-PSD-Template/raw/master/bs4-vs-bs3.xlsx) (差異表)
   * BS4 取消內建 非常難用的Glyphicons ICON Font
   * BS4 的 col-12, col-sm-12 等於 BS3 的 col-xs-12
   * BS4 在 <768 的尺寸，多設定了一個尺寸區間 (576px ~ 767px), 所以BS4針對 IPHONE5處理時，是含蓋到 575px 多了細節的空間, 而BS3是只含蓋到767px
