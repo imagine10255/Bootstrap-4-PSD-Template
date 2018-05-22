@@ -17,8 +17,8 @@ Bootstrap 4 PSD Template
 
 ## Comarison 開發時注意
 ```javascript
-// BS4 map BS3
-$grid-breakpoints: (
+// BS4 map BS3 (螢幕偵測間距)
+$grid-breakpoints: 
   xs: 0,     // (0~575)    map bs3 size: 320,480
   sm: 576px, // (576~767)  map bs3 size: (如果想要補上576~767的細節作為480的替代，
              //                           但我們不改 sm 的 Grid 判定寬度)
@@ -27,3 +27,15 @@ $grid-breakpoints: (
   xl: 1200px // (1200以上)  map bs3 size: 1170
 )
 ```
+
+
+```javascript
+//container 容器最大寬度 (注意每個容器都有15px的間距, 左右共30px)
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px
+);
+```
+
